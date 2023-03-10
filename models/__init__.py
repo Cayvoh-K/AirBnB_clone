@@ -1,9 +1,7 @@
-#!/usr/bin/python3
-"""
-This module initialize the models package
-"""
+from models.engine.file_storage import FileStorage
 
-from odels.engine.file_storage import FileStorage
-
+"""
+Create a file storage instance
+"""
 storage = FileStorage()
 storage.reload()
